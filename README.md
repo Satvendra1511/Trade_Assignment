@@ -21,7 +21,9 @@ throw an exception. If the version is same it will override the existing record.
 2. Store should not allow the trade which has less maturity date then today date.
 3. Store should automatically update the expire flag if in a store the trade crosses the maturity
 date.
-===============================================================================================
+=========================================================================================
+                                                                     
+                                                                     
 1. Scenario - Adding trade in DB by passing valid data.
      POST request - Import below cURL in postman and hit the api, will get 200 sucesss response.
                                                                      
